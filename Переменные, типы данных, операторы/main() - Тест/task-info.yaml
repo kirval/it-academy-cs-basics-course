@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Компилируется, но выдает ошибку во время выполнения.
+  is_correct: true
+- text: Не скомпилируется
+  is_correct: false
+- text: No! I'm still the main
+  is_correct: false
+- text: I'm the main
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Main.java
+  visible: true

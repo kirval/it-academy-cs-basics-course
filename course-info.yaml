@@ -1,0 +1,7 @@
+title: Основы Computer Science | Java
+language: Russian
+summary: Задания к курсу "Основы Computer Science"
+programming_language: Java
+content:
+  - Переменные, типы данных, операторы
+  - Структурное программирование
