@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 7 8 9
+    is_correct: false
+  - text: 0 1 2 3 4 5 6
+    is_correct: false
+  - text: 6 7 8 9
+    is_correct: true
+  - text: 0 1 2 3 4 5 6 7 8 9
+    is_correct: false
+  - text: 0 1 2 3 4 5
+    is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+  - name: src/Main.java
+    visible: false

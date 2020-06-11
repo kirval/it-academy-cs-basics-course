@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: continue
+  is_correct: false
+- text: terminate
+  is_correct: false
+- text: stop
+  is_correct: false
+- text: break
+  is_correct: true
+- text: skip
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Main.java
+  visible: false

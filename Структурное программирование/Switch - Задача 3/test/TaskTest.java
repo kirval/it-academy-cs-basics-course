@@ -7,7 +7,9 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
 
 public class TaskTest {
 
@@ -34,14 +36,16 @@ public class TaskTest {
         System.setIn(in);
 
         Task.main(new String[]{});
-        assertEquals("Зима", outContent.toString().trim());
-    }@Test
+        assertThat(outContent.toString(), containsString("Зима"));
+    }
+
+    @Test
     public void test2() {
         final ByteArrayInputStream in = new ByteArrayInputStream("1".getBytes());
         System.setIn(in);
 
         Task.main(new String[]{});
-        assertEquals("Зима", outContent.toString().trim());
+        assertThat(outContent.toString(), containsString("Зима"));
     }
 
     @Test
@@ -50,71 +54,79 @@ public class TaskTest {
         System.setIn(in);
 
         Task.main(new String[]{});
-        assertEquals("Зима", outContent.toString().trim());
+        assertThat(outContent.toString(), containsString("Зима"));
     }
+
     @Test
     public void test4() {
         final ByteArrayInputStream in = new ByteArrayInputStream("3".getBytes());
         System.setIn(in);
 
         Task.main(new String[]{});
-        assertEquals("Весна", outContent.toString().trim());
+        assertThat(outContent.toString(), containsString("Весна"));
     }
+
     @Test
     public void test5() {
         final ByteArrayInputStream in = new ByteArrayInputStream("4".getBytes());
         System.setIn(in);
 
         Task.main(new String[]{});
-        assertEquals("Весна", outContent.toString().trim());
+        assertThat(outContent.toString(), containsString("Весна"));
     }
+
     @Test
     public void test6() {
         final ByteArrayInputStream in = new ByteArrayInputStream("5".getBytes());
         System.setIn(in);
 
         Task.main(new String[]{});
-        assertEquals("Весна", outContent.toString().trim());
+        assertThat(outContent.toString(), containsString("Весна"));
     }
+
     @Test
     public void test7() {
         final ByteArrayInputStream in = new ByteArrayInputStream("6".getBytes());
         System.setIn(in);
 
         Task.main(new String[]{});
-        assertEquals("Лето", outContent.toString().trim());
+        assertThat(outContent.toString(), containsString("Лето"));
     }
+
     @Test
     public void test8() {
         final ByteArrayInputStream in = new ByteArrayInputStream("7".getBytes());
         System.setIn(in);
 
         Task.main(new String[]{});
-        assertEquals("Лето", outContent.toString().trim());
+        assertThat(outContent.toString(), containsString("Лето"));
     }
+
     @Test
     public void test9() {
         final ByteArrayInputStream in = new ByteArrayInputStream("8".getBytes());
         System.setIn(in);
 
         Task.main(new String[]{});
-        assertEquals("Лето", outContent.toString().trim());
+        assertThat(outContent.toString(), containsString("Лето"));
     }
+
     @Test
     public void test10() {
         final ByteArrayInputStream in = new ByteArrayInputStream("9".getBytes());
         System.setIn(in);
 
         Task.main(new String[]{});
-        assertEquals("Осень", outContent.toString().trim());
+        assertThat(outContent.toString(), containsString("Осень"));
     }
+
     @Test
     public void test11() {
         final ByteArrayInputStream in = new ByteArrayInputStream("10".getBytes());
         System.setIn(in);
 
         Task.main(new String[]{});
-        assertEquals("Осень", outContent.toString().trim());
+        assertThat(outContent.toString(), containsString("Осень"));
     }
 
     @Test
@@ -123,7 +135,7 @@ public class TaskTest {
         System.setIn(in);
 
         Task.main(new String[]{});
-        assertEquals("Осень", outContent.toString().trim());
+        assertThat(outContent.toString(), containsString("Осень"));
     }
 
     @Test
@@ -132,7 +144,7 @@ public class TaskTest {
         System.setIn(in);
 
         Task.main(new String[]{});
-        assertEquals("Нет такого месяца!", outContent.toString().trim());
+        assertThat(outContent.toString(), containsString("Нет такого месяца!"));
     }
 
 
