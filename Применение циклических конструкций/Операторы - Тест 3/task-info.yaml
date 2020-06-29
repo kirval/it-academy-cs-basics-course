@@ -1,14 +1,11 @@
 type: choice
 is_multiple_choice: true
 options:
-  - text: a
-    is_correct: true
-  - text: b
-    is_correct: false
-  - text: c
-    is_correct: true
+- text: a
+- text: b
+- text: c
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:
-  - name: src/Main.java
-    visible: true
+- name: src/Main.java
+  visible: true

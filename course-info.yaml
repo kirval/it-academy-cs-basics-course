@@ -1,4 +1,4 @@
-title: Основы Computer Science | Java
+title: Computer Science Basics
 language: Russian
 summary: Программа обучения курса «Основы Computer Science» специально разработана
   в «IT-Academy» для представителей любых профессий, которые не имеют специальной
@@ -7,7 +7,7 @@ summary: Программа обучения курса «Основы Computer 
   желающих получить новые знания и развиваться в области компьютерных технологий.
 programming_language: Java
 content:
-- Переменные, типы данных, операторы
+- Variables, data types, operators
 - Структурное программирование
 - Применение циклических конструкций
-- Использование массивов
+- Arrays

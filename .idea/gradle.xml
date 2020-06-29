@@ -8,28 +8,29 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../soft/gradle_6.0.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Arrays/Arrays - Task 6" />
+            <option value="$PROJECT_DIR$/Arrays/Macсивы - Задача 4" />
+            <option value="$PROJECT_DIR$/Arrays/Массивы - Задача 1" />
+            <option value="$PROJECT_DIR$/Arrays/Массивы - Задача 2" />
+            <option value="$PROJECT_DIR$/Arrays/Массивы - Задача 3" />
+            <option value="$PROJECT_DIR$/Arrays/Массивы - Задача 5" />
+            <option value="$PROJECT_DIR$/Arrays/Массивы - Тест 1" />
+            <option value="$PROJECT_DIR$/Variables, data types, operators/Comments - Task 1" />
+            <option value="$PROJECT_DIR$/Variables, data types, operators/Comments - Task 2" />
+            <option value="$PROJECT_DIR$/Variables, data types, operators/Comments - Test" />
+            <option value="$PROJECT_DIR$/Variables, data types, operators/Hello, world!" />
+            <option value="$PROJECT_DIR$/Variables, data types, operators/Numeric types - Task 1" />
+            <option value="$PROJECT_DIR$/Variables, data types, operators/Numeric types - Test" />
+            <option value="$PROJECT_DIR$/Variables, data types, operators/Variables - Test" />
+            <option value="$PROJECT_DIR$/Variables, data types, operators/boolean - Test" />
+            <option value="$PROJECT_DIR$/Variables, data types, operators/main() - Task 1" />
+            <option value="$PROJECT_DIR$/Variables, data types, operators/main() - Task 2" />
+            <option value="$PROJECT_DIR$/Variables, data types, operators/main() - Test" />
             <option value="$PROJECT_DIR$/util" />
-            <option value="$PROJECT_DIR$/Использование массивов/Macсивы - Задача 4" />
-            <option value="$PROJECT_DIR$/Использование массивов/Массивы - Задача 1" />
-            <option value="$PROJECT_DIR$/Использование массивов/Массивы - Задача 2" />
-            <option value="$PROJECT_DIR$/Использование массивов/Массивы - Задача 3" />
-            <option value="$PROJECT_DIR$/Использование массивов/Массивы - Задача 5" />
-            <option value="$PROJECT_DIR$/Использование массивов/Массивы - Задача 6" />
-            <option value="$PROJECT_DIR$/Использование массивов/Массивы - Тест 1" />
-            <option value="$PROJECT_DIR$/Переменные, типы данных, операторы/Hello, world!" />
-            <option value="$PROJECT_DIR$/Переменные, типы данных, операторы/boolean - Тест" />
-            <option value="$PROJECT_DIR$/Переменные, типы данных, операторы/main() - Задача 1" />
-            <option value="$PROJECT_DIR$/Переменные, типы данных, операторы/main() - Задача 2" />
-            <option value="$PROJECT_DIR$/Переменные, типы данных, операторы/main() - Тест" />
-            <option value="$PROJECT_DIR$/Переменные, типы данных, операторы/Комментарии - Задача 1" />
-            <option value="$PROJECT_DIR$/Переменные, типы данных, операторы/Комментарии - Задача 2" />
-            <option value="$PROJECT_DIR$/Переменные, типы данных, операторы/Комментарии - Тест" />
-            <option value="$PROJECT_DIR$/Переменные, типы данных, операторы/Переменные - Тест" />
-            <option value="$PROJECT_DIR$/Переменные, типы данных, операторы/Числовые типы - Задача 1" />
-            <option value="$PROJECT_DIR$/Переменные, типы данных, операторы/Числовые типы - Тест" />
             <option value="$PROJECT_DIR$/Применение циклических конструкций/Do while - Задача 2" />
             <option value="$PROJECT_DIR$/Применение циклических конструкций/For - Задача 1" />
             <option value="$PROJECT_DIR$/Применение циклических конструкций/While - Задача 1" />
@@ -48,6 +49,7 @@
             <option value="$PROJECT_DIR$/Структурное программирование/Условные выражения - Задача 3" />
           </set>
         </option>
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
   </component>
